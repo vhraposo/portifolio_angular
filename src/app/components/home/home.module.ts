@@ -3,6 +3,7 @@ import { BrowserModule } from '@angular/platform-browser';
 
 
 
+import { HttpClientModule } from '@angular/common/http';
 import { MainAnimationComponent } from 'src/app/shared/main-animation/main-animation.component';
 import { MainSectionComponent } from 'src/app/shared/main-section/main-section.component';
 import { BtnPrimaryComponent } from '../../shared/btn-primary/btn-primary.component';
@@ -19,6 +20,7 @@ import { HomeComponent } from './home.component';
   ],
   imports: [
     BrowserModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [],
